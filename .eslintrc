@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "extends": ["labnol"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 80,
+        "singleQuote": true,
+        "tabWidth": 4
+      }
+    ]
+  },
+  "globals": {
+    "OAuth1": true,
+    "OAuth2": true,
+    "FirebaseApp": true
+  }
+}
